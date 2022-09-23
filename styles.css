@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+
+body{
+    background-color:#E0E8FF;
+    background-image:  url(./pattern-background-desktop.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 900px;
+
+        
+
+}
+
+
+.card{
+    margin-block: 1em;
+    background-color: #fff;
+    width: 90%;
+    max-width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.card-img img{
+    width: 100%;
+}
+
+
+
+
+.card-body{
+    padding: 2em;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+.card-body > h2 {
+    color:#222944;
+    font-weight: 700;
+}
+
+
+.card-body > p{
+    color: #717FA6;
+}
+
+
+h2{
+    color: #1F2E55;;
+}
+
+h4{
+    color: #1F2E55;
+}
+.card-body .plan{
+    padding: 1em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+
+.plan img {
+    height: 2.2em;
+}
+
+.plan .details{
+    flex-grow:1;
+    align-items: left;
+}
+
+.plan .details h4{
+    color: #222944;
+}
+
+.plan .details p{
+    color: #888fac;
+}
+
+.plan a{
+    text-decoration: underline;
+    color: #766cf1;
+    font-size:.8em;
+
+}
+
+
+.plan a:hover{
+    text-decoration: none;
+    color: #574eb4;
+}
+
+
+.card .btn{
+    color: #293250;
+    text-decoration: none;
+    font-weight:600;
+    padding: 0;
+    transition: .3s;
+    border-radius: .5em;
+}
+
+
+.btn-pay{
+    background-color: #382AE1;
+    color: white;
+    text-decoration: none;
+    /* margin: 1em; */
+    height: 60px;
+    align-items: center;
+    display: flex;
+    border-radius: 11px;
+    justify-content: center;
+}
+
+.btn:hover{
+    box-shadow: 0 5px 1em #776cf13c
+}
+
+
+.musicContainer {
+    
+    align-content: space-between;
+    display: flex;
+    width: 150px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.btn-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+
+
+
+
+
